@@ -1,0 +1,107 @@
+
+
+En una escuela primaria se solicita a los 30 alumnos del sexto curso que califiquen a
+sus 3 maestras. Para hacerlo, deben agruparse de a 5 y cada grupo asignar una nota
+entre 1 y 10 a cada maestra. Se requiere un informe en el que se detalle, para cada
+maestra, la nota que cada grupo le asignó y la nota promedio que obtuvo
+
+
+/*INPUTS/*
+NOTA DE CADA MAESTRA (1>= X <= 10)
+
+/*OUTPUTS/*
+NOTA MAESTRA 1
+NOTA MAESTRA 2
+NOTA MAESTRA 3
+
+
+PROGRAMA: Notas maestras
+    
+    VARIABLES:
+    grupo1,grupo2,grupo3,grupo4,grupo5,grupo6: Entero 1
+    nota1a,nota2a,nota3a: Entero 2 /*1 AL 10/*
+    nota1b,nota1b,nota3b: Entero 2 /*1 AL 10/*
+    nota1c,nota1c,nota3c: Entero 2 /*1 AL 10/*
+    nota1d,nota1d,nota3d: Entero 2 /*1 AL 10/*
+    nota1e,nota1e,nota3e: Entero 2 /*1 AL 10/*
+    nota1f,nota1f,nota3f: Entero 2 /*1 AL 10/*
+    HACER:
+        IMPRIMIR:"¿QUE GRUPO ES?"
+        LEER: grupo1
+        IMPRIMIR: "¿Que nota le da a la maestra 1?"
+        LEER: nota1a
+        IMPRIMIR: "¿Que nota le da a la maestra 2?"
+        LEER: nota2a
+        IMPRIMIR: "¿Que nota le da a la maestra 3?"
+        LEER: nota3a
+
+        IMPRIMIR:"¿QUE GRUPO ES?"
+        LEER: grupo2
+        IMPRIMIR: "¿Que nota le da a la maestra 1?"
+        LEER: nota1b
+        IMPRIMIR: "¿Que nota le da a la maestra 2?
+        LEER: nota2b
+        IMPRIMIR: "¿Que nota le da a la maestra 3?
+        LEER: nota3b
+
+        IMPRIMIR:"¿QUE GRUPO ES?"
+        LEER: grupo3
+        IMPRIMIR: "¿Que nota le da a la maestra 1?
+        LEER: nota1c
+        IMPRIMIR: "¿Que nota le da a la maestra 2?
+        LEER: nota2c
+        IMPRIMIR: "¿Que nota le da a la maestra 3?
+        LEER: nota3c
+
+            IMPRIMIR:"¿QUE GRUPO ES?"
+        LEER: grupo4
+        IMPRIMIR: "¿Que nota le da a la maestra 1?
+        LEER: nota1d
+        IMPRIMIR: "¿Que nota le da a la maestra 2?
+        LEER: nota2d
+        IMPRIMIR: "¿Que nota le da a la maestra 3?
+        LEER: nota3d
+
+            IMPRIMIR:"¿QUE GRUPO ES?"
+        LEER: grupo5
+        IMPRIMIR: "¿Que nota le da a la maestra 1?
+        LEER: nota1e
+        IMPRIMIR: "¿Que nota le da a la maestra 2?
+        LEER: nota2e
+        IMPRIMIR: "¿Que nota le da a la maestra 3?
+        LEER: nota3e
+
+            IMPRIMIR:"¿QUE GRUPO ES?"
+        LEER: grupo6
+        IMPRIMIR: "¿Que nota le da a la maestra 1?
+        LEER: nota1f
+        IMPRIMIR: "¿Que nota le da a la maestra 2?
+        LEER: nota2f
+        IMPRIMIR: "¿Que nota le da a la maestra 3?
+        LEER: nota3f
+
+        IMPRIMIR:"NOTAS MAESTRA 1"
+        IMPRIMIR: nota1a,nota1b,nota1c,nota1d,nota1e,nota1f
+        IMPRIMIR:"PROMEDIO MAESTRA 1"
+        IMPRIMIR:= (nota1a+nota1b+nota1c+nota1d+nota1e+nota1f)/6
+
+        IMPRIMIR:"NOTAS MAESTRA 2"
+        IMPRIMIR: nota2a,nota2b,nota2c,nota2d,nota2e,nota2f
+        IMPRIMIR:"PROMEDIO MAESTRA 2"
+        IMPRIMIR:= (nota2a+nota2b+nota2c+nota2d+nota2e+nota2f)/6
+
+        IMPRIMIR:"NOTAS MAESTRA 3"
+        IMPRIMIR: nota3a,nota3b,nota3c,nota3d,nota3e,nota3f
+        IMPRIMIR:"PROMEDIO MAESTRA 3"
+        IMPRIMIR:= (nota3a+nota3b+nota3c+nota3d+nota3e+nota3f)/6
+    FIN HACER
+FIN PROGRAMA
+
+
+
+
+
+
+
+
+

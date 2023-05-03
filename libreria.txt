@@ -1,0 +1,74 @@
+
+
+Una Librería cobra $10 el minuto de uso de una computadora con conexión a Internet,
+y $15 la hoja impresa. Existe un cargo adicional consistente en $5 * X, siendo X el 1%
+del tiempo utilizado, en concepto de seguro. Se quiere imprimir el recibo de uso de un
+cliente, en el que se detallen todos los conceptos.
+
+
+
+
+/*INPUTS/*
+TIEMPO UTILIZADO
+HOJAS IMPRESAS
+
+
+
+/*DATOS A CALCULAR/*
+PRECIO X USO DE LA PC
+ADICIONAL X SEGURO
+
+
+/*OUTPUTS/*
+
+PRECIO X USO DE LA PC
+ADICIONAL X SEGURO
+TOTAL USO PC
+PRECIO HOJAS IMPRESAS 
+TOTAL DE TODOS LOS GASTOS
+
+
+
+
+
+PROGRAMA: Librería
+    CONSTANTE
+
+        Uso_pc: $10
+        Hoja: $15
+        Recargo: $5
+        
+
+    VARIABLES
+
+        Minutos: Entero 4
+        Cant_hojas: Entero 3
+
+    HACER
+
+        IMPRIMIR: "Ingrese los minutos que el cliente utilizo la PC"
+        LEER: Minutos
+        IMPRIMIR: "Ingrese las hojas impresas por el cliente"
+        LEER: Cant_hojas
+
+        IMPRIMIR: "RECIBO DE USO"
+
+        IMPRIMIR: "Cargo por cantidad de tiempo de uso de la PC"
+        IMPRIMIR:= Uso_pc * Minutos
+
+        IMPRIMIR: "Recargo por seguro"
+        IMPRIMIR:= (Minutos* 0.01) * Recargo
+        IMPRIMIR: "TOTAL  PC"
+        IMPRIMIR:= (Uso_pc * Minutos) + (Minutos * 0.01) * Recargo
+
+        IMPRIMIR: "Precio por hojas impresas"
+        IMPRIMIR:= Hoja * Cant_hojas
+
+        IMPRIMIR:"TOTAL"
+        IMPRIMIR:= (Uso_pc * Minutos) + (Minutos * 0.01) * Recargo + Hoja * Cant_hojas
+
+
+
+    FIN HACER
+
+FIN PROGRAMA

@@ -1,0 +1,18 @@
+
+Se realiza una encuesta para determinar cuáles son los jabones en polvo preferidos en
+una determinada población. Entre todas las personas encuestadas, se mencionaron 7
+marcas diferentes. Se quiere obtener un informe en el que se detalle, para cada
+marca, la cantidad de personas y el porcentaje que ese número representa.
+
+/*INPUTS/*
+CANTIDAD DE POBLACION
+JABON PREFERIDO
+CANTIDAD DE PERSONAS
+
+/*CALCULAR/*
+PORCENTAJE DE CADA JABON
+
+/*OUTPUTS/*
+CANTIDAD DE PERSONAS
+PORCENTAJE EN RELACION A LA CANT DE PERSONAS
+

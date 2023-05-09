@@ -26,15 +26,16 @@ PROGRAMA: USD
         SI(cant_usd < 501 ) ENTONCES
             IMPRIMIR: "El costo de la transaccion es:" costo_total
             SINO 
-                SI (501 < cant_usd < 1501) ENTONCES 
+                (501 < cant_usd < 1501) ENTONCES 
                     IMPRIMIR: "El costo de la transaccion es:" costo_total * 0.02
             SINO
-                SI (1501 < cant_usd < 3501) ENTONCES 
+                (1501 < cant_usd < 3501) ENTONCES 
                     IMPRIMIR: "El costo de la transaccion es:" costo_total * 0.025
             SINO
-                SI (3501 < cant_usd ) ENTONCES 
+                 (3501 < cant_usd ) ENTONCES 
                     IMPRIMIR: "El costo de la transaccion es:" costo_total * 0.04
-            FIN SI
+        FIN SI
+        FIN SI
         FIN SI
     FIN HACER
 FIN PROGRAMA

@@ -1,0 +1,41 @@
+Un empleado de banco tiene un sistema que imprime un ticket cada vez que un cliente
+realiza una compra de dólares. La operación tiene una comisión administrativa según
+la cantidad de dólares que se venden, lo que representa un sobre costo para el cliente:
+a. 2% si es más de 501 y menos de 1501
+b. 2,5% si es mayor de 1501 y menos que 3501
+c. 4 % si es mayor a 3501
+
+/*INGRESO/*
+CANTIDAD DE DOLARES
+VALOR DEL DOLAR
+
+/*CALCULAR/*
+COSTO CON COMISION 1
+COSTO CON COMISION 2
+COSTO CON COMISION 3
+
+PROGRAMA: USD
+    VARIABLES
+        precio_usd: entero 3
+        cant_usd : entero 4
+        costo_total: entero 7 
+    HACER
+        IMPRIMIR: "Ingrese el valor del Dólar"
+        LEER:precio_usd
+        costo_total:= cant_usd * precio_usd
+        SI(cant_usd < 501 ) ENTONCES
+            IMPRIMIR: "El costo de la transaccion es:" costo_total
+            SINO 
+                SI (501 < cant_usd < 1501) ENTONCES 
+                    IMPRIMIR: "El costo de la transaccion es:" costo_total * 0.02
+            SINO
+                SI (1501 < cant_usd < 3501) ENTONCES 
+                    IMPRIMIR: "El costo de la transaccion es:" costo_total * 0.025
+            SINO
+                SI (3501 < cant_usd ) ENTONCES 
+                    IMPRIMIR: "El costo de la transaccion es:" costo_total * 0.04
+            FIN SI
+        FIN SI
+    FIN HACER
+FIN PROGRAMA
+

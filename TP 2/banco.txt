@@ -22,18 +22,20 @@ PROGRAMA: USD
     HACER
         IMPRIMIR: "Ingrese el valor del Dólar"
         LEER:precio_usd
+        IMPRIMIR: "Ingrese la cantidad de dolares"
+        LEER:cant_usd
         costo_total:= cant_usd * precio_usd
         SI(cant_usd < 501 ) ENTONCES
             IMPRIMIR: "El costo de la transaccion es:" costo_total
             SINO 
                 (501 < cant_usd < 1501) ENTONCES 
-                    IMPRIMIR: "El costo de la transaccion es:" costo_total * 0.02
+                    IMPRIMIR: "El costo de la transaccion es:" costo_total + costo_total * 0.02
             SINO
                 (1501 < cant_usd < 3501) ENTONCES 
-                    IMPRIMIR: "El costo de la transaccion es:" costo_total * 0.025
+                    IMPRIMIR: "El costo de la transaccion es:" costo_total + costo_total * 0.025
             SINO
                  (3501 < cant_usd ) ENTONCES 
-                    IMPRIMIR: "El costo de la transaccion es:" costo_total * 0.04
+                    IMPRIMIR: "El costo de la transaccion es:" costo_total + costo_total * 0.04
         FIN SI
         FIN SI
         FIN SI

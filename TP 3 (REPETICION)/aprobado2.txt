@@ -1,0 +1,27 @@
+
+// Obtener el porcentaje de aprobados y nota promedio de aprobados de 40 alumnos // de un curso.
+// Se aprueba con nota mayor o igual a 4
+// La cantidad de notas a cargar se conoce al inicio de la carga
+//(La diferencia que se tiene con el Ejemplo 3 es que aca se debe cargar la cant// idad de notas al inicio, y en el 3 es fijo para 40. Marcamos en color la dife// rencia con el ejemplo 3)
+
+Programa: Notas 2
+    Variables:
+        nota: real 4,2
+        total: real 5,2
+        i: entero 2
+        prom: real 4,2
+        alumnos: entero 2
+    Hacer:
+        Imprimir:"¿Cuantos alumnos hay?"
+        Leer: alumnos
+        total:=
+        Repetir para i := 1,alumnos,1
+            Imprimir:"Ingrese la nota del alumno"
+            Leer: notas
+            total= total + nota
+        Fin Repetir Para
+        prom:= total/alumnos
+        Imprimir:"El promedio es", Redondear(prom)
+    Fin Hacer
+Fin Programa
+    

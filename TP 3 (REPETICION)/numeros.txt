@@ -1,0 +1,67 @@
+ Se ingresa por teclado un conjunto de números uno a uno.
+ Contar cuántas veces se presentan los valores 10, 20, 30 y 40
+ y cuántos números distintos a esos se presentan. 
+El proceso finaliza la tercera vez que -1 es ingresado.
+
+
+Programa: Números
+    Variables:
+        num:entero 2
+        i: entero 2
+        cont: entero 3
+        nd: entero 3
+
+    Hacer:
+        nd:= 0 
+        cont:= 0
+        i:= 0
+        Repetir mientras ( cont < 3)
+            Imprimir: "Ingrese un número"
+            Leer:num
+            Si (num = 10 ) o (num= 20) o (num=30) o (num=40) entonces
+                i:= i + 1
+            sino si (num = -1) entonces
+                cont:= cont + 1
+            sino  
+                nd:= nd + 1
+            Fin si
+            Fin si
+            Fin si
+        Fin Repetir mientras
+        Imprimir:"La cantidad de veces que se presentan los valores 10, 20, 30 y 40 fueron:" , i
+        Imprimir:"La cantidad de numeros distintos fueron:",nd
+    Fin Hacer
+Fin programa
+
+
+//VERSION CHAT GPT//
+Programa: Numeros
+    Variables:
+        num: entero
+        i: entero
+        cont: entero
+        nd: entero
+
+    Hacer:
+        nd := 0
+        cont := 0
+        i := 0
+
+        Repetir
+            Imprimir: "Ingrese un número"
+            Leer: num
+
+            Si (num = 10) o (num = 20) o (num = 30) o (num = 40) entonces
+                i := i + 1
+            Sino Si (num = -1) entonces
+                cont := cont + 1
+            Sino
+                nd := nd + 1
+            Fin Si
+
+        Hasta que (cont >= 3)
+
+        Imprimir: "La cantidad de veces que se presentan los valores 10, 20, 30 y 40 fue: ", i
+        Imprimir: "La cantidad de números distintos fue: ", nd
+
+    Fin Programa

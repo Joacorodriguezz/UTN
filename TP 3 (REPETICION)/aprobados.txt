@@ -1,0 +1,20 @@
+Obtener el porcentaje de aprobados y nota promedio de aprobados de 40 alumnosde un curso.
+Se aprueba con nota mayor o igual a 4
+
+Programa: Notas
+    Variables: 
+        nota: real 5,2
+        total: real 4,2
+        prom: real 4,2
+        i:entero 2
+    Hacer:
+        total:= 0
+        Repetir para i:=1,40,1
+            Imprimir:"Ingrese la nota del alumno"
+            Leer: nota
+            total:=total+nota
+        Fin Repetir Para
+        prom:= total/40
+        Imprimir: "El promedio de la nota de los alumnos es",prom
+    Fin Hacer
+Fin programa
